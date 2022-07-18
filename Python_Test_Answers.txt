@@ -1,0 +1,106 @@
+1. 
+print(2*2)
+
+
+2.
+string = 'my name is usmaan'+' and i am 26 years old'   
+print(string.upper())
+
+
+3.
+a='7789.98' 
+float(a)
+
+
+4.
+a=6 
+b=7 
+((a > 5) | (b > 5 )) 
+
+
+5. 
+string2 = """My name is Usmaan  
+and my main hobbies are ranked from 1-3 
+1. archery, 2. football, 3. camping or hiking"""    
+print(string2)
+
+
+6.
+from datetime import date
+today.strftime("%a, %d/%m/%y")
+
+
+7.
+u = 1
+total = 0 
+
+while total < 100:
+    total += u
+    u * 5
+
+print(total)
+
+
+8.
+x = 'hello' 
+isinstance(x, int)
+print ("not an integer")
+
+x = -1      
+if x < 0:
+    print ("negative number")
+
+x = 1 
+if x > 0:
+    print ("positive number")
+
+x = 0 
+if x == 0:  
+    print ("Zero")
+
+
+9.
+list1 = [0,2,4,1,3,5]   
+list1[0:2]
+
+list1[3:6]
+
+list1[0:3]
+
+
+10. 
+
+list2 = [-1, 2,- 8, 83, -22, 33, -62, 9, -9, 12, -11]
+output_list = []
+
+for element in range(0, len(list2)): 
+    y = list2[element]
+
+    if y > 0:
+        output_list.append(y)
+
+print(list2)
+print(output_list)
+
+
+11.
+list3 = ['1', '2', '3.5', '20.9']
+output_list2 = []
+
+for position in range(0, len(list3)):
+    z = list3[position]
+
+    if isinstance(z, str):
+        x = float(z)
+
+    output_list2.append(x)
+
+print(list3)
+print(output_list2)
+
+
+[float(element) for element in list3]
+
+
+
+
